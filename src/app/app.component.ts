@@ -62,8 +62,23 @@ export class AppComponent {
   public inputVal1: [];
   public inputVal2: [];
   public inputs: Input[] = [];
+  
+  public donne: string;
+  public donne2: string;
+  public i: number;
 
 
+
+  enregistrer() {
+    this.i = 0;
+    this.donne = "";
+    this.donne2 = "";
+    do {
+      this.donne = this.donne.concat("\n", this.inputs[this.i].inputVal1);
+      this.donne2 = this.donne2.concat("\n", this.inputs[this.i].inputVal2);
+      this.i++;
+    } while (this.i < this.inputs.length);
+  }
 
   /////////////// Check_Box ///////////////
   public cboxBizValue: any[] = [];
