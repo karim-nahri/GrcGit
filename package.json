@@ -21,7 +21,7 @@
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
     "docx": "^5.0.0-rc4",
-    "docxtemplater": "^3.11.1",
+    "docxtemplater": "^3.31.4",
     "file-saver": "^2.0.2",
     "jszip": "^2.6.1",
     "jszip-utils": "0.0.2",
